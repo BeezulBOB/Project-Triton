@@ -10,7 +10,7 @@
 | Project | Project Triton |
 | Document ID | PT-REQ-001 |
 | Document Title | System Requirements |
-| Version | 0.1 |
+| Version | 0.2 |
 | Status | Draft |
 | Owner | Robert Schneider |
 | Created | 2026-08-11 |
@@ -25,6 +25,7 @@
 | Version | Date | Description |
 |---|---|---|
 | 0.1 | 2026-08-11 | Initial system requirements draft developed following DR-002 approval; established SR-001 through SR-082, requirements traceability, and ORD-001 through ORD-032 |
+| 0.2 | 2026-08-11 | Incorporated PT-AN-001 thrust-objective analysis; quantified SR-054 and SR-055, updated associated requirements traceability, and partially resolved ORD-001 and ORD-015 |
 
 ---
 
@@ -244,8 +245,8 @@ Only after this process is complete shall the system requirements be considered 
 
 | ID | Requirement | Verification | Status |
 |---|---|---|---|
-| SR-054 | The RDT-80 shall achieve an approved continuous-thrust objective under defined reference test conditions. | VM-002, VM-004 | Draft |
-| SR-055 | The RDT-80 shall achieve an approved peak-thrust objective for the defined allowable duration and operating conditions. | VM-002, VM-004 | Draft |
+| SR-054 | The RDT-80 shall produce not less than 7.0 kgf (68.6 N) forward static thrust while operating within the approved continuous operating envelope under defined reference test conditions. | VM-002, VM-004 | Draft |
+| SR-055 | The RDT-80 shall produce not less than 10.0 kgf (98.1 N) forward static thrust for the approved peak operating duration while operating within the approved peak operating envelope and defined reference test conditions. | VM-002, VM-004 | Draft |
 | SR-056 | The RDT-80 shall provide controllable thrust over the approved operating range in response to valid operating commands. | VM-003, VM-004 | Draft |
 | SR-057 | The RDT-80 propulsor and duct geometry shall be defined by configuration-controlled principal dimensions sufficient to support hydrodynamic, structural, electromagnetic, manufacturing, and test analyses. | VM-001 | Draft |
 | SR-058 | The RDT-80 shall operate within approved rotor-speed, torque, electrical-input, and thrust limits established through requirements, analysis, and test evidence. | VM-002, VM-004 | Draft |
@@ -441,8 +442,8 @@ Only after this process is complete shall the system requirements be considered 
 | SR-051 | Define inspection or verification criteria for assembly processes affecting critical system functions | PT-SA-001 Sections 6, 9, and 10 | AS-001 | RK-009, RK-013, RK-016 | OI-020, OI-023, OI-024 | VM-001 | Draft |
 | SR-052 | Use prototype manufacturing methods and materials adequate for their intended function and authorized test envelope | PT-SA-001 Sections 6 and 10 | AS-001, AS-008 | RK-009, RK-015, RK-016 | OI-012, OI-020, OI-023 | VM-002, VM-001, VM-004 | Draft |
 | SR-053 | Permit configuration-controlled revision of prototype processes, materials, and components based on engineering evidence | PT-SA-001 Sections 9 and 10 | AS-001, AS-011 | RK-013, RK-015 | OI-024 | VM-001 | Draft |
-| SR-054 | Achieve the approved continuous-thrust objective under defined reference conditions | PT-SA-001 Sections 3, 4, 10, and 11 | AS-002, AS-007 | RK-007, RK-012 | OI-001, OI-019 | VM-002, VM-004 | Draft |
-| SR-055 | Achieve the approved peak-thrust objective for the defined allowable duration and conditions | PT-SA-001 Sections 4, 10, and 11 | AS-002, AS-007 | RK-007, RK-012 | OI-001, OI-019 | VM-002, VM-004 | Draft |
+| SR-054 | Produce not less than 7.0 kgf (68.6 N) continuous forward static thrust under approved continuous and reference test conditions | PT-SA-001 Sections 3, 4, 10, and 11 | AS-002, AS-007 | RK-007, RK-012 | OI-001, OI-019, OI-023 | VM-002, VM-004 | Draft |
+| SR-055 | Produce not less than 10.0 kgf (98.1 N) peak forward static thrust for the approved peak duration and reference test conditions | PT-SA-001 Sections 4, 10, and 11 | AS-002, AS-007 | RK-007, RK-012 | OI-001, OI-019, OI-023 | VM-002, VM-004 | Draft |
 | SR-056 | Provide controllable thrust over the approved operating range | PT-SA-001 Sections 3, 5, and 10 | AS-002, AS-006 | RK-007, RK-011 | OI-001, OI-017 | VM-003, VM-004 | Draft |
 | SR-057 | Define configuration-controlled principal propulsor and duct dimensions | PT-SA-001 Sections 4, 9, and 11 | AS-005 | RK-007, RK-008, RK-009 | OI-002, OI-012, OI-020 | VM-001 | Draft |
 | SR-058 | Operate within approved rotor-speed, torque, electrical-input, and thrust limits | PT-SA-001 Sections 4, 5, and 10 | AS-010 | RK-001, RK-002, RK-003, RK-005, RK-007, RK-011, RK-016 | OI-001, OI-003, OI-023 | VM-002, VM-004 | Draft |
@@ -481,7 +482,7 @@ This section will track requirement-development decisions that remain unresolved
 
 | Item | Related Requirement | Related Open Issue | Decision Needed | Status |
 |---|---|---|---|---|
-| ORD-001 | SR-001 | OI-001 | Establish the required quantitative thrust/performance objective and associated acceptance criteria | Open |
+| ORD-001 | SR-001 | OI-001 | Establish the required quantitative thrust/performance objective and associated acceptance criteria | Partially Resolved |
 | ORD-002 | SR-015 | OI-003 | Establish the system nominal voltage, allowable voltage range, maximum electrical input power, and associated electrical-interface ratings | Open |
 | ORD-003 | SR-017 | OI-018 | Establish the required power-isolation architecture, actuation method, isolation location, and acceptance criteria | Open |
 | ORD-004 | SR-023 | OI-018, OI-023 | Establish the emergency-shutdown actuation method, shutdown response, required independence, reset behavior, and acceptance criteria | Open |
@@ -495,7 +496,7 @@ This section will track requirement-development decisions that remain unresolved
 | ORD-012 | SR-041, SR-042, SR-043, SR-046 | — | Define which components are designated serviceable, inspectable, replaceable, or configuration-controlled and establish the associated maintenance-access and traceability criteria | Open |
 | ORD-013 | SR-047, SR-048, SR-049 | OI-008, OI-009, OI-011 | Establish critical manufacturing dimensions, tolerances, alignment criteria, inspection methods, and allowable tolerance stack-up for the rotor-support and electromagnetic assemblies | Open |
 | ORD-014 | SR-052 | OI-023 | Establish which prototype manufacturing processes and materials are approved for each test stage and define any associated inspection, proof-test, or qualification requirements | Open |
-| ORD-015 | SR-054, SR-055, SR-056 | OI-001 | Establish continuous thrust, peak thrust, peak-thrust duration, thrust-control range, reference conditions, and associated acceptance criteria | Open |
+| ORD-015 | SR-054, SR-055, SR-056 | OI-001 | Establish continuous thrust, peak thrust, peak-thrust duration, thrust-control range, reference conditions, and associated acceptance criteria | Partially Resolved |
 | ORD-016 | SR-057 | OI-002 | Establish rotor diameter, duct dimensions, flow-passage dimensions, and the principal geometric envelope of the RDT-80 prototype | Open |
 | ORD-017 | SR-058 | OI-001, OI-003, OI-023 | Establish approved rotor-speed, torque, electrical-input, and thrust operating limits and define how those limits expand during development testing | Open |
 | ORD-018 | SR-059, SR-060, SR-061 | OI-001, OI-002, OI-015 | Establish the applicable efficiency or propulsive-performance metric, cavitation acceptance criterion, vibration limits, and reference hydrodynamic test conditions | Open |
