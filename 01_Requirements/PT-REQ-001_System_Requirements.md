@@ -10,7 +10,7 @@
 | Project | Project Triton |
 | Document ID | PT-REQ-001 |
 | Document Title | System Requirements |
-| Version | 0.2 |
+| Version | 0.3 |
 | Status | Draft |
 | Owner | Robert Schneider |
 | Created | 2026-08-11 |
@@ -26,6 +26,7 @@
 |---|---|---|
 | 0.1 | 2026-08-11 | Initial system requirements draft developed following DR-002 approval; established SR-001 through SR-082, requirements traceability, and ORD-001 through ORD-032 |
 | 0.2 | 2026-08-11 | Incorporated PT-AN-001 thrust-objective analysis; quantified SR-054 and SR-055, updated associated requirements traceability, and partially resolved ORD-001 and ORD-015 |
+| 0.3 | 2026-08-11 | Incorporated PT-AN-002 principal prototype geometry analysis; added the 90 mm nominal propulsor-diameter requirement, updated associated requirements traceability, and partially resolved ORD-016 |
 
 ---
 
@@ -254,6 +255,7 @@ Only after this process is complete shall the system requirements be considered 
 | SR-060 | The RDT-80 shall operate without cavitation exceeding the approved acceptance criterion throughout the portion of the operating envelope designated for normal continuous operation. | VM-002, VM-004 | Draft |
 | SR-061 | The RDT-80 shall operate without hydrodynamically induced vibration exceeding approved limits throughout the authorized operating envelope. | VM-002, VM-004 | Draft |
 | SR-062 | The propulsor blade count, geometry, pitch, and attachment configuration shall be defined and configuration-controlled before performance verification testing is used to establish compliance with system thrust requirements. | VM-001 | Draft |
+| SR-083 | The initial RDT-80 prototype shall use a nominal propulsor diameter of 90 mm. | VM-001 | Draft |
 
 ### 7.3 Mechanical and Structural Requirements
 
@@ -471,6 +473,7 @@ Only after this process is complete shall the system requirements be considered 
 | SR-080 | Detect applicable water ingress into protected volumes and initiate protective response | PT-SA-001 Sections 5.6, 8, and 10.15 | AS-008 | RK-006, RK-010, RK-016 | OI-013, OI-016, OI-018 | VM-001, VM-003, VM-004 | Draft |
 | SR-081 | Detect loss of required control communications and transition to the approved protective state | PT-SA-001 Sections 5.6, 8, 10.15, and 10.16 | AS-006 | RK-011, RK-016 | OI-017, OI-018 | VM-003, VM-004 | Draft |
 | SR-082 | Detect failure of required interlocks and prevent unsafe powered operation | PT-SA-001 Sections 5.4, 5.6, 8, 10.16, and 10.17 | AS-006 | RK-011, RK-016 | OI-018, OI-023 | VM-001, VM-003, VM-004 | Draft |
+| SR-083 | Use a 90 mm nominal propulsor diameter for the initial prototype | PT-SA-001 Sections 4, 9, and 11; PT-AN-002 | AS-002, AS-005 | RK-001, RK-002, RK-003, RK-007, RK-008, RK-009 | OI-002 | VM-001 | Draft |
 
 ---
 
@@ -497,7 +500,7 @@ This section will track requirement-development decisions that remain unresolved
 | ORD-013 | SR-047, SR-048, SR-049 | OI-008, OI-009, OI-011 | Establish critical manufacturing dimensions, tolerances, alignment criteria, inspection methods, and allowable tolerance stack-up for the rotor-support and electromagnetic assemblies | Open |
 | ORD-014 | SR-052 | OI-023 | Establish which prototype manufacturing processes and materials are approved for each test stage and define any associated inspection, proof-test, or qualification requirements | Open |
 | ORD-015 | SR-054, SR-055, SR-056 | OI-001 | Establish continuous thrust, peak thrust, peak-thrust duration, thrust-control range, reference conditions, and associated acceptance criteria | Partially Resolved |
-| ORD-016 | SR-057 | OI-002 | Establish rotor diameter, duct dimensions, flow-passage dimensions, and the principal geometric envelope of the RDT-80 prototype | Open |
+| ORD-016 | SR-057, SR-083 | OI-002 | Establish the remaining rotor, duct, flow-passage, and principal system-envelope dimensions after selection of the 90 mm nominal propulsor diameter by PT-AN-002 | Partially Resolved |
 | ORD-017 | SR-058 | OI-001, OI-003, OI-023 | Establish approved rotor-speed, torque, electrical-input, and thrust operating limits and define how those limits expand during development testing | Open |
 | ORD-018 | SR-059, SR-060, SR-061 | OI-001, OI-002, OI-015 | Establish the applicable efficiency or propulsive-performance metric, cavitation acceptance criterion, vibration limits, and reference hydrodynamic test conditions | Open |
 | ORD-019 | SR-062 | OI-015 | Select and document the propulsor blade count, blade geometry, pitch, attachment method, and configuration-control basis | Open |

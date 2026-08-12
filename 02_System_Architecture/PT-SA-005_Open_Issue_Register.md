@@ -7,7 +7,7 @@
 | Project        | Project Triton                     |
 | Document ID    | PT-SA-005                          |
 | Document Title | Open-Issue Register                |
-| Version        | 0.1                                |
+| Version        | 0.2                                |
 | Status         | Draft — DR-002 Supporting Artifact |
 | Owner          | Robert Schneider                   |
 | Created        | 2026-08-11                         |
@@ -18,6 +18,7 @@
 | Version | Date       | Author           | Description                                                      |
 | ------- | ---------- | ---------------- | ---------------------------------------------------------------- |
 | 0.1     | 2026-08-11 | Robert Schneider | Initial open-issue register created from PT-SA-001 Section 11.17 |
+| 0.2     | 2026-08-11 | Robert Schneider | Updated OI-001 and OI-002 to reflect PT-AN-001 and PT-AN-002 analysis progress; recorded the preliminary thrust objectives and 90 mm nominal propulsor selection, retained remaining unresolved work, and changed both issues to In Work |
 
 ## 1. Purpose
 
@@ -92,10 +93,10 @@ Critical
 Before quantitative electromagnetic and hydrodynamic sizing is baselined.
 
 **Status:**
-Open
+In Work
 
 **Resolution:**
-Not yet resolved.
+PT-AN-001 established preliminary RDT-80 thrust objectives of not less than 7.0 kgf (68.6 N) continuous forward static thrust and not less than 10.0 kgf (98.1 N) peak forward static thrust. These values have been transferred into SR-054 and SR-055. Peak-thrust duration, thrust-control range, reference test conditions, and remaining acceptance criteria are not yet fully resolved.
 
 **Related Items:**
 RK-001; RK-007; AS-002.
@@ -134,10 +135,10 @@ Critical
 Before detailed preliminary CAD and electromagnetic sizing.
 
 **Status:**
-Open
+In Work
 
 **Resolution:**
-Not yet resolved.
+PT-AN-002 selected G90 with a 90 mm nominal propulsor diameter as the initial prototype geometry basis. The approximately 140–160 mm overall outside-diameter range is retained as a preliminary packaging-study objective only. Remaining rotor, stator, duct, clearance, support, and axial system-envelope dimensions remain unresolved and are assigned to the applicable downstream analyses.
 
 **Related Items:**
 RK-001; RK-007; AS-002; AS-005.
